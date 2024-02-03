@@ -1,4 +1,4 @@
-package com.ruralnative.news_application
+package com.ruralnative.news_app
 
 import org.junit.Test
 

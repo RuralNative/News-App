@@ -1,4 +1,4 @@
-package com.ruralnative.news_application.ui.theme
+package com.ruralnative.news_app.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
