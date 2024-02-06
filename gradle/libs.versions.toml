@@ -8,9 +8,9 @@ lifecycle-runtime-ktx = "2.7.0"
 compose-bom = "2024.01.00"
 kspGradlePlugin = "1.9.21-1.0.16"
 applicationGradlePlugin = "8.2.2"
-androidGradlePlugin = "1.9.20"
+kotlinGradlePlugin = "1.9.22"
 appcompat = "1.6.1"
-material = "1.9.0"
+material = "1.11.0"
 
 [libraries]
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity-compose" }
@@ -33,5 +33,5 @@ material = { group = "com.google.android.material", name = "material", version.r
 [plugins]
 ksp-plugin = { id = "com.google.devtools.ksp", version.ref = "kspGradlePlugin" }
 android-application = { id = "com.android.application", version.ref = "applicationGradlePlugin" }
-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "androidGradlePlugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinGradlePlugin" }
 androidLibrary = { id = "com.android.library", version.ref = "applicationGradlePlugin" }
