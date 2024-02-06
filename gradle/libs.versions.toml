@@ -9,6 +9,8 @@ compose-bom = "2024.01.00"
 kspGradlePlugin = "1.9.21-1.0.16"
 applicationGradlePlugin = "8.2.2"
 androidGradlePlugin = "1.9.20"
+appcompat = "1.6.1"
+material = "1.9.0"
 
 [libraries]
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity-compose" }
@@ -25,8 +27,11 @@ compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4
 compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
 compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 junit = { module = "junit:junit", version.ref = "junit" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 [plugins]
 ksp-plugin = { id = "com.google.devtools.ksp", version.ref = "kspGradlePlugin" }
 android-application = { id = "com.android.application", version.ref = "applicationGradlePlugin" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "androidGradlePlugin" }
+androidLibrary = { id = "com.android.library", version.ref = "applicationGradlePlugin" }
