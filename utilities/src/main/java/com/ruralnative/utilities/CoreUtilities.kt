@@ -15,6 +15,5 @@ object CoreUtilities {
             activeNetwork.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET) -> true
             else -> false
         }
-        return result
     }
 }
