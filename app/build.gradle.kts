@@ -68,7 +68,12 @@ dependencies {
     debugImplementation(libs.compose.ui.test.manifest)
 
     implementation(libs.dagger.hilt)
-    ksp(libs.dagger.hilt)
+    ksp(libs.dagger.hilt.compiler)
+    androidTestImplementation(libs.dagger.hilt.android.testing)
+    kspAndroidTest(libs.dagger.hilt.android.testing)
+    testImplementation(libs.dagger.hilt.android.testing)
+    kspTest(libs.dagger.hilt.android.testing)
+
     implementation(libs.androidx.hilt.compiler)
     ksp(libs.androidx.hilt.compiler)
     implementation(libs.androidx.hilt.compose)
